@@ -37,18 +37,18 @@ function average(noteOne, noteTwo) {
 
 
 
-for (let studant of students) {
-   let studentAverage = average(studant.firstNote, studant.secondNote)
+for (let student of students) {
+   let studentAverage = average(student.firstNote, student.secondNote)
 
    if (studentAverage >= 7) {
       alert(`
-      Parabens ${studant.name} a sua média (${studentAverage}), nas duas ultimas provas,
+      Parabens ${student.name} a sua média (${studentAverage}), nas duas ultimas provas,
       ficaram acima da nota de corte.
       `)
    } 
    else {
       alert(`
-      ${studant.name} infelizmente a sua média (${studentAverage}), nas duas ultimas provas,
+      ${student.name} infelizmente a sua média (${studentAverage}), nas duas ultimas provas,
       não foram suficientes para passar nesse concurso.
       `)
    }
